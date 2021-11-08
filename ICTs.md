@@ -1,0 +1,67 @@
+#CERTIFICADO DE PROFESIONALIDAD: MONTAJE Y MANTEMIMIENTO DE INFRAESTRUCTURAS DE COMUNICACIONES EN EDIFICIOS
+
+INDICE DEL MODULO
+=================
+
+
+UF0423 RECEPCIÓN Y DISTRIBUCIÓN DE SENYALES DE RADIODIFUSIÓN
+------------------------------------------------------------
+
+1. Parámetros de las señales de televisión analógica y digital
+2. Identificación de las líneas de transmisión
+3. Elementos del equipo de cabecera
+4. Elementos de distribución
+5. Instalaciones de antena de TV i radio individuales, i en ICT
+
+
+UF0424 MONTAJE DE INSTALACIONES DE RECEPCIÓN Y DISTRIBUCIÓN DE SEÑALES DE RADIODIFUSION
+-----------------------------------------------------------------------
+
+1. Seguridad en las instalaciones de telecomunicaciones en los
+edificios
+2. Normativa sobre Infraestructuras Comunes para los servicios de radio
+y televisión en el interior de los edificios ICT
+3. Instalación y orientación de los sistemas de captación
+4. Instalación y puesta a punto de los equipos de cabecera
+5. Instalacion de la red
+
+
+UF0425 MONTAJE Y REPARACIÓN DE INSTALACIONES DE ANTENAS EN EDIFICIOS
+--------------------------------------------------------------------
+
+1. Normativa ICT
+2. Reparación y mantenimiento de los sistemas de captación
+3. Reparación y mantenimiento de los sistemas de cabecera
+4. Reparación y mantenimiento de la red
+
+
+
+OBJETIVOS DEL CERTIFICADO DE PROFESIONALIDAD
+============================================
+
+
+Competencia general:
+--------------------
+
+Montar y mantener instalaciones de telecomunicación de captación de 
+señales de radiodifusión sonora y TV: antenas, cable, telefónica y 
+comunicación interior en edificios y conjuntos de edificaciones, 
+aplicando las técnicas y los procedimientos requeridos en cada caso, 
+consiguiendo los criterios de calidad, en condiciones de seguridad y 
+cumpliendo la normativa vigente.
+
+Ámbito profesional
+------------------
+Ejerce su actividad en pequeñas y medianas empresas que se ubican en 
+las áreas de instalaciones de captacion de señales de radiodifusión 
+sonora, TV, instalaciones de telefonia y comunicación interior, o 
+bien por cuenta propia o ajena.
+
+Ocupaciones o lugares de trabajo relacionados
+---------------------------------------------
+
+1. Instalador de antenas
+2. Instalador de telecomunicaciones en edificios de viviendas
+3. Instalador de equipos e instalaciones telefónicas
+4. Reparador de instalaciones telefónicas
+5. Montador de antenas receptoras terrestres y satélite
