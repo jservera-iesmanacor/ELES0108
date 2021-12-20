@@ -1,3 +1,4 @@
+ <div id="content">
 #CERTIFICADO DE PROFESIONALIDAD: MONTAJE Y MANTEMIMIENTO DE INFRAESTRUCTURAS DE COMUNICACIONES EN EDIFICIOS
 
 INDICE DEL MODULO
@@ -68,3 +69,22 @@ Ocupaciones o lugares de trabajo relacionados
 3. Instalador de equipos e instalaciones telefónicas
 4. Reparador de instalaciones telefónicas
 5. Montador de antenas receptoras terrestres y satélite
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.4.0/showdown.min.js"></script>
+<script>
+var conv = new showdown.Converter({tables: true});
+var txt = document.getElementById('content').innerHTML;
+console.log(txt);
+document.getElementById('content').innerHTML = conv.makeHtml(txt);
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ]
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

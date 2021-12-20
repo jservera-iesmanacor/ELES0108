@@ -1,5 +1,4 @@
-<div id="content">
-
+ <div id="content">
 UD1 - COMPROBACIÓN DE LOS PARÁMETROS DE LAS SEÑALES DE TELEVISIÓN ANALÓGICA Y DIGITAL
 =======================================================================
 
@@ -89,8 +88,8 @@ Cuando esta onda topa con una antena induce una fuerza electromotriz
 01.02 - Polarización de la onda                    <a name="01.02"></a>
 -------------------------------
 
-> La polarización describe la dirección de oscilación en el plano
-> perpendicular al que viaja la onda.
+ > La polarización describe la dirección de oscilación en el plano
+ > perpendicular al que viaja la onda.
 
 <p align="center">
 <img height="200" src="img/polarizacion_onda_cuerda.jpg">
@@ -172,17 +171,17 @@ campo eléctrico de la carga acelerada.
 
 
 Relacionados con la amplitud de onda existe los siguientes conceptos:
-* **Valor de pico (V-p):** es el valor máximo al que puede llegar la 
+* **Valor de pico** ($V\_p$): es el valor máximo al que puede llegar la 
 onda.
 
-* **Valor de pico a pico (V-pp):** es el valor que hay entre el valor 
-pico positivo y el negativo.
+* **Valor de pico a pico** ($V\_{pp}$): es el valor que hay entre el 
+valor pico positivo y el negativo.
 
-* **Valor eficaz: (V)** Es el valor que tiene un corriente continuo que
-aplicado en una resistencia produce la misma disipación de potencia que
-el corriente alterno valorado.
+* **Valor eficaz** ($V$): Es el valor que tiene un corriente continuo 
+que aplicado en una resistencia produce la misma disipación de potencia
+que el corriente alterno valorado.
 
-* **Longitud de Onda (%lambda):**, es la distancia que recorre una
+* **Longitud de Onda** ($\lambda$):, es la distancia que recorre una
 oscilación completa.
 
 <p align="center"><img width ="250" src=
@@ -190,26 +189,27 @@ oscilación completa.
 
 Las siguientes formulas relacionan estas características:
 
-$$ f = \frac {c}{\lambda} $$
-    %lambda = c over f
+$$ f =  { c \over \lambda } $$
+$$ \lambda = { c \over f } $$
 
 
-* lambda en metros
-* f en kHz
-* c en km/s 
+* $\lambda$ en metros
+* $f$ en kHz
+* $c$ en km/s 
 
 
 **Ejemplo (02.01):** 
-> Para una frecuencia de 100MHz ¿que longitud de onda tengo?
-> 
+
+>Para una frecuencia de 100MHz ¿que longitud de onda tengo?
+ 
 > Primero hay que fijarse en que la frecuencia nos la dan en MHz 
 > (mega hercios) y nosotros la necesitamos en kHz. Cada MHz equivale 
 > a 1000kHz, así que 100MHz son 100.000kHz
-> 
+ 
 > Ahora que todo está en las unidades correctas, podemos aplicar la
 > fórmula:
 
-    %lambda = c over f = 300.000 over 100.000 = 3
+$$ \lambda = { c \over f } = { 300.000 \over 100.000 } = 3 $$
 
 > La longitud de onda es de 3 metros.
 
@@ -223,33 +223,35 @@ Las magnitudes son las mismas que los circuitos eléctricos en realidad.
 Sólo que en estos casos la potencia es mucho más baja y las unidades se
 adaptan a estos valores:
 
-* **Fuerza electromotriz inducida (femi):** Es el voltaje (la tensión)
-que se induce en la antena receptora. Su unidad habitual será:
+* **Fuerza electromotriz inducida** ($femi$): Es el voltaje (la 
+tensión) que se induce en la antena receptora. Su unidad habitual será:
     - **µV** 1µV equivale a 0.000001V
     - **mV** 1mV equivale a 0.001V
 
-* **Tensión o diferencia de potencial V o ddp:** Diferencia de valores
-entre un polo y otro del circuito. Las unidades son las mismas que en
-el caso anterior.
+* **Tensión o diferencia de potencial** $V$ o $ddp$: Diferencia de 
+valores entre un polo y otro del circuito. Las unidades son las mismas 
+que en el caso anterior.
 
-* **Impedancia del circuito (Z):** Oposición que ejerce todo circuito,
-debido a sus conexiones y componentes, al paso de la corriente 
-eléctrica. En los circuitos de RTV se establece una impedancia
-característica de 75Ω.
+* **Impedancia del circuito ($Z$):** Oposición que ejerce todo 
+circuito, debido a sus conexiones y componentes, al paso de la 
+corriente eléctrica. En los circuitos de RTV se establece una 
+impedancia característica de 75Ω.
 
-* **Intensidad (I):** Movimiento de electrones por segundo en el
+* **Intensidad ($I$):** Movimiento de electrones por segundo en el
 circuito. Su unidad más habitual será el µA o el mA.
 Se puede calcular a partir de la tensión mediante la ley de Ohm:
 
-    I = V over Z
+$$ I = {V \over Z} $$
 
-* **Potencia (P):** Es la energía por unidad de tiempo que se utiliza en
-el circuito. Se calcula como:
+* **Potencia ($P$):** Es la energía por unidad de tiempo que se utiliza
+en el circuito. Se calcula como:
 
-    P = V times I
+$$ P = V \times I $$
 
-
-
+<p align="center">
+<img src="img/triangulo_ley_ohm.png" width="150">
+<img src="img/ley_ohm.png" width="150">
+</p>
 
 02.04 - Decibelios                                 <a name="02.04"></a> 
 ------------------
@@ -290,23 +292,23 @@ anterior el valor de referencia era 1€, por lo tanto es un valor en
 decibelios, en valor absoluto, por eso se añade la unidad después de 
 los dB (dB€):
 
-    V_dB = 10 times left ( V over 1€ right )
+$$ V\_{dB€} = 10 \times \left( V \over 1€ \right) $$
 
 Donde:
-* **V\_dB:** es el valor en decibelios
-* **V:** es el valor en €
+* ** $V\_{dB}$: ** es el valor en decibelios
+* ** $V$: ** es el valor en €
 
 Pero puede ser cualquier valor de referencia, por ejemplo la proporcion
 entre la potencia de entrada y la salida se da en decibelios de 
 ganancia en este caso se da en dB:
 
-    V_dB = 10 times left ( P_ent over P_sal right )
+$$ V\_{dB} = 10 \times \left( P\_{ent} \over P\_{sal} \right) $$
 
 Donde:
 
-* **V\_dB:** es el valor en decibelios
-* **P\_ent:** es la potencia de entrada
-* **P\_sal:** es la potencia de salida
+* $V\_{dB}$: es el valor en decibelios
+* $P\_{ent}$: es la potencia de entrada
+* $P\_{sal}$: es la potencia de salida
 
 
 
@@ -469,57 +471,40 @@ subdividen canales de 8MHz cada uno, es decir _"trozos"_ del espectro
 donde estan todas las frecuencias utilizadas para reproducir imagenes y
 sonido.
 
-|Bandas|Canal|Frecuencia Canal (MHz)|
-|:----:|:---:|---------------------:|
-| B IV | 21  |            470...478 |
-| B IV | 22  |            478...486 |
-| B IV | 23  |            486...494 |
-| B IV | 24  |            494...502 |
-| B IV | 25  |            502...510 |
-| B IV | 26  |            510...518 |
-| B IV | 27  |            518...526 |
-| B IV | 28  |            526...534 |
-| B IV | 29  |            534...542 |
-| B IV | 30  |            542...500 |
-| B IV | 31  |            550...558 |
-| B IV | 32  |            558...566 |
-| B IV | 33  |            566...574 |
-| B IV | 34  |            574...582 |
-| B IV | 35  |            582...590 |
-| B IV | 36  |            590...598 |
-| B IV | 37  |            598...606 |
-| B V  | 38  |            606...614 |
-| B V  | 39  |            614...622 |
-| B V  | 40  |            622...630 |
-| B V  | 41  |            630...638 |
-| B V  | 42  |            638...646 |
-| B V  | 43  |            646...654 |
-| B V  | 44  |            654...662 |
-| B V  | 45  |            662...670 |
-| B V  | 46  |            670...678 |
-| B V  | 47  |            678...686 |
-| B V  | 48  |            686...694 |
-| B V  | 49  |            694...702 |
-| B V  | 50  |            702...710 |
-| B V  | 51  |            710...718 |
-| B V  | 52  |            718...726 |
-| B V  | 53  |            726...734 |
-| B V  | 54  |            734...742 |
-| B V  | 55  |            742...750 |
-| B V  | 56  |            750...758 |
-| B V  | 57  |            758...766 |
-| B V  | 58  |            766...774 |
-| B V  | 59  |            774...782 |
-| B V  | 60  |            782...790 |
-| B V  | 61  |            790...798 |
-| B V  | 62  |            798...806 |
-| B V  | 63  |            806...814 |
-| B V  | 64  |            814...822 |
-| B V  | 65  |            822...830 |
-| B V  | 66  |            830...838 |
-| B V  | 67  |            838...846 |
-| B V  | 68  |            846...854 |
-| B V  | 69  |            854...862 |
+|Bandas|Canal|Frec. Canal (MHZ)|Bandas|Canal|Frec. Canal (MHZ)|
+|:----:|:---:|----------------:|:----:|:---:|----------------:|
+| B IV | 21  |       470...478 | B V  | 38  |       606...614 |
+| B IV | 22  |       478...486 | B V  | 39  |       614...622 |
+| B IV | 23  |       486...494 | B V  | 40  |       622...630 |
+| B IV | 24  |       494...502 | B V  | 41  |       630...638 |
+| B IV | 25  |       502...510 | B V  | 42  |       638...646 |
+| B IV | 26  |       510...518 | B V  | 43  |       646...654 |
+| B IV | 27  |       518...526 | B V  | 44  |       654...662 |
+| B IV | 28  |       526...534 | B V  | 45  |       662...670 |
+| B IV | 29  |       534...542 | B V  | 46  |       670...678 |
+| B IV | 30  |       542...500 | B V  | 47  |       678...686 |
+| B IV | 31  |       550...558 | B V  | 48  |       686...694 |
+| B IV | 32  |       558...566 | B V  | 49  |       694...702 |
+| B IV | 33  |       566...574 | B V  | 50  |       702...710 |
+| B IV | 35  |       582...590 | B V  | 51  |       710...718 |
+| B IV | 36  |       590...598 | B V  | 52  |       718...726 |
+| B IV | 37  |       598...606 | B V  | 53  |       726...734 |
+|      |     |                 | B V  | 54  |       734...742 |
+|      |     |                 | B V  | 55  |       742...750 |
+|      |     |                 | B V  | 56  |       750...758 |
+|      |     |                 | B V  | 57  |       758...766 |
+|      |     |                 | B V  | 58  |       766...774 |
+|      |     |                 | B V  | 59  |       774...782 |
+|      |     |                 | B V  | 60  |       782...790 |
+|      |     |                 | B V  | 61  |       790...798 |
+|      |     |                 | B V  | 62  |       798...806 |
+|      |     |                 | B V  | 63  |       806...814 |
+|      |     |                 | B V  | 64  |       814...822 |
+|      |     |                 | B V  | 65  |       822...830 |
+|      |     |                 | B V  | 66  |       830...838 |
+|      |     |                 | B V  | 67  |       838...846 |
+|      |     |                 | B V  | 68  |       846...854 |
+|      |     |                 | B V  | 69  |       854...862 |
 
 > **Nota importante:** En el 2014 los canales 60 a 69 se reasignaron
 > para señales de telefonía móvil 4G/LTE, y a desde el 2020 los canales
@@ -604,50 +589,57 @@ televisión analógica:
 La ganancia en potencia es la diferencia de potencia entre dos puntos
 diferentes (normalmente entre entrada y salida):
 
-    G = 10 log P_2 over P_1
+$$ G = 10 \log  P\_2 \over P\_1 $$
 
 Donde:
 
-* **G:** es la ganancia
-* **P\_1:** es la potencia en la entrada
-* **P\_2:** es la potencia en la salida
+* $G$: es la ganancia
+* $P\_1$: es la potencia en la entrada
+* $P\_2$: es la potencia en la salida
 
 Considerando la misma impedancia resistiva y aplicando Ohm:
 
-    G = 10 log P_2 over P_1 = 10 log { V_2^2 over overstrike R } over 
-    { V_2^2 over overstrike R } = 10 log V_2^2 over V_1^2 = 20 log V_2
-    over V_1
+$$ G = 10 \log { P\_2 \over P\_1 } = 
+10 \log \frac { V\_2^2 \over \not R } { V\_2^2 \over \not R } = 
+10 \log { V\_2^2 \over V\_1^2 } = 20 \log { V\_2 \over V\_1 } $$
 
 Donde:
 
-* **V\_1:** es la tensión en la entrada
-* **V\_2:** es la tensión en la salida
+* $V\_1$: es la tensión en la entrada
+* $V\_2$: es la tensión en la salida
 
 También se expresan en otras magnitudes en valores de potencia y
 tensión absolutos: dBm, dBW, dBµV y dBmV.
 
 Por ejemplo:
-    G (dBm) = 10 log { P(mW) } over { 1(mW) }
-    G (dBW) = 10 log { P(W) } over { 1(W) }
-    V (dBµV) = 20 log { V(µV) } over { 1(µV) }
-    V (dBmV) = 20 log { V(mV) } over { 1(mV) }
+$$ \begin{align}
+& G (dBm) = 10 \log { P(mW) \over 1(mW) } \\\\
+& G (dBW) = 10 \log { P(W) \over 1(W) } \\\\
+& V (dBµV) = 20 \log { V(µV) \over 1(µV) } \\\\
+& V (dBmV) = 20 \log { V(mV) \over 1(mV) }
+\end{align} $$
 
 **Ejercicio 05.01.01 (I) :**
 Que potencia tiene un equipo que la potencia en la salida es de 47dBm:
 
-$
-    G (dBm) = 10 log {P(mW)} over {1(mW)} toward log P(mW) = G over 10
-    toward P (mW) = 10 ^ { G over 10 } = 10 ^ { 47 over 10 } = 50.118mW 
-    = 50W
-$
+
+$$ \begin{align}
+& G (dBm) = 10 \log { P(mW) \over 1(mW) } \rightarrow \log P(mW) = 
+{ G \over 10 } \rightarrow \\\\
+& \rightarrow P (mW) = 10 ^ { G \over 10 } = 10 ^ { 47 \over 10 } = 
+50.118mW = 50W 
+\end{align} $$
 
 **Ejercicio 05.01.01 (II):**
 Que tensión máxima en voltios mediremos en un amplificador que indica 
 que su tensión de salida máxima es 113dBµV
 
-    V (dbµV) = 20 log { V (µV) } over { 1 (µV) } towards 113 = 20 log
-    V (µV) over 1 towards V (µV) = 10 ^ {113 over 20} = 10 ^ 5,65 = 
-    446.683 µV = 0,4V
+$$ \begin{align}
+& V (dbµV) = 20 \log { V (µV) \over 1 (µV) } \rightarrow 113 = 
+20 \log {V (µV) \over 1} \rightarrow \\\\
+& \rightarrow V (µV) = 10 ^ {113 \over 20} = 10 ^ {5,65} = 446.683 µV = 
+0,4V 
+\end{align} $$
 
 
 ### 05.01.02 ROE (Relación de Onda Estacionaria)
@@ -682,12 +674,12 @@ control a los datos que sí nos interesan, como la letra del DNI.
 
 La relación corresponde a la siguiente fórmula:
 
-    S/N = 10 log P_S over P_R
+$$ S/N = 10 \log P\_S \over P\_R $$
 
 Donde:
 
-* **P\_S:** es la potencia de la señal
-* **P\_R:** es la potencia del ruido
+* $P\_S$: es la potencia de la señal
+* $P\_R$: es la potencia del ruido
 
 
 ### 05.01.04 - La C/N en una señal digital
@@ -702,20 +694,20 @@ imagen bloques coloreados pero sin contenido concreto.
 
 La relación corresponde a la siguiente fórmula:
 
-    C/N: 10 log P_C over P_R
+$$ C/N: 10 \log { P\_C \over P\_R } $$
 
 Donde:
 
-* **P\_C:** es la potencia de la portadora
-* **P\_R:** es la potencia del ruido
+* $P\_C$: es la potencia de la portadora
+* $P\_R$: es la potencia del ruido
 
 En el RD 346/2011, se establece un C/N mínimo para cada una de las
 posibles modulaciones digitales de TV:
 
-* C/N QPSK-TV: >= 11dB
-* C/N 64QAM-TV	>= 28dB
-* C/N COFDM-DAB >= 18dB
-* C/N COFDM-TV >= 25dB, (subportadoras moduladas con 64QAM)
+* $ C/N QPSK-TV >= 11dB $
+* $ C/N 64QAM-TV >= 28dB $
+* $ C/N COFDM-DAB >= 18dB $
+* $ C/N COFDM-TV >= 25dB $ (subportadoras moduladas con 64QAM)
 
 
 ### 05.01.05 - Distorsión
@@ -795,7 +787,7 @@ cámara captaba los 3 colores (rojo, verde y azul), definía la
 luminancia según el estándar. Por ejemplo en el estándar PAL, se
 definía como:
 
-    Y_(R,G,B) = 0,30R + 0,59G + 0,11B
+$$ Y\_{(R,G,B)} = 0,30R + 0,59G + 0,11B $$
 
 Esta transformación tienen en cuenta la diferentes sensibilidad del ojo
 a diferentes colores, de tal forma que la superposición ponderada de
@@ -807,8 +799,8 @@ extraerse de el valor de Y una vez conocido R y B.
 
 La información de color se calcula como sigue:
 
-    U = 0,492(B-Y)
-    V = 0,877(R-Y)
+$$ U = 0,492(B-Y) $$
+$$ V = 0,877(R-Y) $$
 
 
 05.03 - Normas RTMA y CCIR                         <a name="05.03"></a>
@@ -960,27 +952,27 @@ se obtengan por unidad de tiempo mayor calidad tendrá la imagen. Aunque
 se deberá poder transmitir toda esa información. Se definen los
 siguientes parámetros:
 
-* **Frecuencia de muestreo (fm):** Cuántas muestras se toman en un
+* **Frecuencia de muestreo** $(fm)$: Cuántas muestras se toman en un
 tiempo determinado
 
-* **Número de bits por muestra (n):** Información por muestra, es decir
-si cuantificamos con un byte (8 bits), podemos tomar 256 valores
+* **Número de bits por muestra** $(n)$: Información por muestra, es 
+decir si cuantificamos con un byte (8 bits), podemos tomar 256 valores
 diferentes. Se debe tener en cuenta que a partir de cierto número de
 bits aparece el llamado ruido de cuantificación.
 
 * **Paso de cuantificación:** Diferencia entre dos niveles consecutivos
 en el eje vertical.
 
-    %DELTA = { 2A } over {2 ^ n}
+$$ \Delta = { 2A \over 2 ^ n} $$
 
 Donde:
-    - n es el número de bits por muestra
-    - A es la amplitud de la señal
+    - $n$ es el número de bits por muestra
+    - $A$ es la amplitud de la señal
 
 * **Tasa binaria:** Codificadas las muestras, se genera un tren de bits
 en cada muestra cada tiempo de muestreo
 
-    Rb = n over fm
+$$ Rb = { n \over fm } $$
 
 Para una resolución horizontal de 720 píxeles y una duración de la
 línea útil de 54 µs, un submestreo 4:2:0 a una velocidad de 13,5 MHz 
@@ -989,11 +981,14 @@ para la luminancia y 6,75 MHz para las señales de diferencia de color.
 Si cada muestra se cuantifica con 8 bits, la cantidad de información
 es:
 
-    13,5 MHz times 8 bits = 108 Mbps
-    6,75 MHz times 8 bits = 54 Mbps
+$$ \begin{align}
+& 13,5 MHz \times 8 \mathrm { bits } = 108 \mathrm { Mbps } \\\\
+& 6,75 MHz \times 8 \mathrm { bits } = 54 \mathrm {Mbps}
+\end{align} $$
 
 En total:
-    108 + 54 = 162 Mbps
+
+$$ 108 + 54 = 162 \mathrm { Mbps } $$
 
 
 06.03 - Compresión de la señal digital             <a name="06.03"></a>
@@ -1150,7 +1145,6 @@ En esta técnica se subdivide el canal (que recordemos mide 8MHz),
 en muchas portadoras de frecuencias cercanas, luego cada portadora es
 modulada con las técnicas vistas anteriormente xPSK o xAM. En el caso
 de la DVB-T.
-
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.4.0/showdown.min.js"></script>
 <script>
@@ -1160,6 +1154,13 @@ console.log(txt);
 document.getElementById('content').innerHTML = conv.makeHtml(txt);
 </script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ]
+    }
+  };
+</script>
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
